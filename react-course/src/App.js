@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import People from './components/People'
+import Phrase from './components/Phrase'
 
 function App() {
   const name = 'Rafa'
@@ -22,6 +23,7 @@ function App() {
       <SayMyName name="Rafa" />
       <SayMyName name="José" />
       <People name="Will" age="7" occupation="Estudante" photo="https://via.placeholder.com/150" />
+      <Phrase />
     </div>
   );
 }
