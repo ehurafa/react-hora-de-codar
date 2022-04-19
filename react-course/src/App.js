@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import People from './components/People'
 import Phrase from './components/Phrase'
+import List from './components/List'
 
 function App() {
   const name = 'Rafa'
@@ -24,6 +25,7 @@ function App() {
       <SayMyName name="José" />
       <People name="Will" age="7" occupation="Estudante" photo="https://via.placeholder.com/150" />
       <Phrase />
+      <List />
     </div>
   );
 }
