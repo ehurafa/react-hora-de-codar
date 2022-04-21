@@ -5,6 +5,8 @@ import SayMyName from './components/SayMyName'
 import People from './components/People'
 import Phrase from './components/Phrase'
 import List from './components/List'
+import Event from './components/Event'
+import Form from './components/Form'
 
 function App() {
   const name = 'Rafa'
@@ -26,6 +28,8 @@ function App() {
       <People name="Will" age="7" occupation="Estudante" photo="https://via.placeholder.com/150" />
       <Phrase />
       <List />
+      <Event number="2" />
+      <Form />
     </div>
   );
 }
