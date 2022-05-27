@@ -12,6 +12,9 @@ function Select({text, name, options, placeholder, handleOnChange, value}) {
                 <option>
                     Seleciona uma opção
                 </option>
+                {options.map((option) => (
+                    <option value={option.id} key={option.id}>{option.name}</option>
+                ))}
             </select>
         </div>
     )
