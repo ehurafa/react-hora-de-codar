@@ -34,6 +34,24 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Projetao",
+      "budget": "35000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 700,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "700",
+          "description": "Serviço que custa 700",
+          "id": "64223789-b7cb-417c-8257-755b4e906cd0"
+        }
+      ],
+      "id": 3
     }
   ],
   "categories": [
