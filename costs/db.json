@@ -2,18 +2,18 @@
   "projects": [
     {
       "name": "teste",
-      "budget": "76",
+      "budget": "8808080808080",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "name": "teste 2",
-      "budget": "desdsfd",
+      "name": "teste 2 editado",
+      "budget": "100000",
       "category": {
         "id": "4",
         "name": "Planejamento"
